@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<modes>
+
+  <!-- mag → eng -->
+
+  <mode name="mag-eng" install="yes" gendebug="yes">
+    <pipeline>
+
+      <program name="lt-proc -w">
+        <file name="mag-eng.automorf.bin"/>
+      </program>
+
+
+      <program name="cg-proc -w">
+        <file name="mag-eng.rlx.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="mag-eng.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="lt-proc -b">
+        <file name="mag-eng.autobil.bin"/>
+      </program>
+      <program name="lrx-proc -m">
+        <file name="mag-eng.autolex.bin"/>
+      </program>
+
+
+      <program name="rtx-proc">
+        <file name="mag-eng.rtx.bin"/>
+      </program>
+
+      <program name="lt-proc $1">
+        <file name="mag-eng.autogen.bin"/>
+      </program>
+      <program name="lt-proc -p">
+        <file name="mag-eng.autopgen.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+  <!-- eng → mag -->
+
+  <mode name="eng-mag" install="yes" gendebug="yes">
+    <pipeline>
+
+      <program name="lt-proc -w">
+        <file name="eng-mag.automorf.bin"/>
+      </program>
+
+
+      <program name="cg-proc -w">
+        <file name="eng-mag.rlx.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="eng-mag.prob"/>
+      </program>
+
+      <program name="apertium-pretransfer"/>
+      <program name="lt-proc -b">
+        <file name="eng-mag.autobil.bin"/>
+      </program>
+      <program name="lrx-proc -m">
+        <file name="eng-mag.autolex.bin"/>
+      </program>
+
+
+      <program name="rtx-proc">
+        <file name="eng-mag.rtx.bin"/>
+      </program>
+
+      <program name="lt-proc $1">
+        <file name="eng-mag.autogen.bin"/>
+      </program>
+      <program name="lt-proc -p">
+        <file name="eng-mag.autopgen.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+</modes>
+
