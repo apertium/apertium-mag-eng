@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dictionary>
    <!-- Define the alphabet below. -->
-  <alphabet>aAáÁăảạÆbBcCčdDÐeEéèễệfFgGhHiIíjJkKlLmMnNoOóöớpPqQrRsSšştTŢuUúüưvVwWxXyYzZ</alphabet>
+  <alphabet>aAáÁăảạÆbBcCčdDÐeEéèễệfFgGhHiIíjJkKlLmMnNoOóöớpPqQrRsSšştTŢuUúüưvVwWxXyYzZकखगघङचछजझञटठडढणतथदधनपफबभमहरशषसवअइउएओऐऔआईऊिुेोैौाीू</alphabet>
 
   <sdefs>
     <!-- Define symbol definitions within <sdef> here. -->
@@ -9,17 +9,20 @@
     <sdef n="np"              c="Proper noun"/>
     <sdef n="vblex"           c="Verb, lexical"/>
     <sdef n="vbmod"           c="Modal verb"/>
+    <sdef n="v"               c="Verb"/>
     <sdef n="vaux"            c="Auxiliary verb"/>
     <sdef n="vbser"           c="'To be' verb"/>
     <sdef n="vbhaver"         c="'To have' verb"/>
     <sdef n="cnjsub"          c="Subordinating conjunction"/>
     <sdef n="cnjcoo"          c="Co-ordinating conjunction"/>
     <sdef n="cnjadv"          c="Adverbial conjunction"/>
+    <sdef n="cnj"             c="Conjunction"/>
     <sdef n="pr"              c="Preposition"/>
     <sdef n="adv"             c="Adverb"/>
     <sdef n="ij"              c="Interjection"/>
     <sdef n="adj"             c="Adjective"/>
     <sdef n="prn"             c="Pronoun"/>
+    <sdef n="post"            c="Postposition"/>
 
     <sdef n="attr"            c="Attributive"/>
     <sdef n="top"             c="Toponym"/>
@@ -31,6 +34,8 @@
     <sdef n="pers"            c="Personal pronoun"/>
     <sdef n="ref"             c="Reflexive pronoun"/>
     <sdef n="res"             c="Reciprocal pronoun"/>
+    <sdef n="rel"             c="Relative pronoun"/>
+    <sdef n="cor"             c="Correlative pronoun"/>
 
     <sdef n="det"             c="Determiner"/>
     <sdef n="pos"             c="Possessive"/>
@@ -38,6 +43,24 @@
     <sdef n="p1"              c="1st person"/>
     <sdef n="p2"              c="2nd person"/>
     <sdef n="p3"              c="3rd person"/>
+    <sdef n="s_p1"            c="1st person subject"/>
+    <sdef n="s_p2"            c="2nd person subject"/>
+    <sdef n="s_p3"            c="3rd person subject"/>
+    <sdef n="o_p2"            c="2nd person object"/>
+    <sdef n="o_p3"            c="3rd person object"/>
+
+    <sdef n="hab"             c="Habitual aspect"/>
+    <sdef n="impf"            c="Imperfective aspect"/>
+    <sdef n="perf"            c="Perfective aspect"/>
+
+    <sdef n="pres"            c="Present"/>
+    <sdef n="past"            c="Past"/>
+    <sdef n="fut"             c="Future"/>
+    <sdef n="prs"             c="Present subjunctive"/>
+    <sdef n="fts"             c="Future subjunctive"/>
+
+    <sdef n="hi"              c="High courtesy"/>
+    <sdef n="low"             c="Low courtesy"/>
 
     <sdef n="nt"              c="Neuter"/>
     <sdef n="ut"              c="Utrum"/>
@@ -56,15 +79,22 @@
     <sdef n="nom"             c="Nominative"/>
     <sdef n="acc"             c="Accusative"/>
     <sdef n="gen"             c="Genitive"/>
+    <sdef n="loc"             c="Locative case"/>
+    <sdef n="ins"             c="Instrumental case"/>
+    <sdef n="obl"             c="Oblique case"/>
 
     <sdef n="dem"             c="Demonstrative"/>
+    <sdef n="prx"             c="Proximate"/>
     <sdef n="itg"             c="Question word / interrogative"/>
     <sdef n="qnt"             c="Quantifier"/>
     <sdef n="neg"             c="Negative"/>
     <sdef n="emph"            c="Emphatic"/>
+    <sdef n="quan"            c="Quantitative"/>
+    <sdef n="adjv"            c="Adjectival"/>
+    <sdef n="pla"             c="Place adverb"/>
+    <sdef n="time"            c="Time adverb"/>
 
     <sdef n="inf"             c="Infinitive"/>
-    <sdef n="pres"            c="Present"/>
     <sdef n="imp"             c="Imperative"/>
     <sdef n="pret"            c="Preterite"/>
     <sdef n="pp"              c="Perfect participle"/>
@@ -97,7 +127,35 @@
 
    <section id="main" type="standard">
       <!-- Define entries within <e> here. -->
-      <e><p><l>house<s n="n"/></l><r>casa<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>घुर<s n="v"/></l><r>return<s n="v"/></r></p></e>
+      <e><p><l>खोजते<s n="v"/></l><r>search<s n="v"/></r></p></e>
+      <e><p><l>बैठ<s n="v"/></l><r>sit<s n="v"/></r></p></e>
+      <e><p><l>जा<s n="v"/></l><r>go<s n="v"/></r></p></e>
+      <e><p><l>कह<s n="v"/></l><r>say<s n="v"/></r></p></e>
+      <e><p><l>बनाला<s n="v"/></l><r>make<s n="v"/></r></p></e>
+      <e><p><l>सुन<s n="v"/></l><r>hear<s n="v"/></r></p></e>
+
+      <e><p><l>गांव<s n="n"/></l><r>village<s n="n"/></r></p></e>
+      <e><p><l>राजा<s n="n"/></l><r>king<s n="n"/></r></p></e>
+      <e><p><l>साधू<s n="n"/></l><r>saint<s n="n"/></r></p></e>
+      <e><p><l>पतुकी<s n="n"/></l><r>followers<s n="n"/></r></p></e>
+      <e><p><l>सिपाही<s n="n"/></l><r>seoys<s n="n"/></r></p></e>
+      <e><p><l>एतना<s n="n"/></l><r>meantime<s n="n"/></r></p></e>
+      <e><p><l>तपसेआ<s n="n"/></l><r>austerities<s n="n"/></r></p></e> <!-- NOT SURE -->
+      <e><p><l>जङगल<s n="n"/></l><r>forest<s n="n"/></r></p></e>
+      <e><p><l>नेआव<s n="n"/></l><r>justice<s n="n"/></r></p></e>
+      <e><p><l>छेला<s n="n"/></l><r>disciple<s n="n"/></r></p></e>
+      <e><p><l>पांओ<s n="n"/></l><r>feet<s n="n"/></r></p></e>
+
+      <e><p><l>अपन<s n="adj"/></l><r>own<s n="adj"/></r></p></e>
+      <e><p><l>बेलस<s n="adj"/></l><r>better<s n="adj"/></r></p></e>
+      <e><p><l>परन<s n="adj"/></l><r>low<s n="adj"/></r></p></e> <!-- NOT SURE -->
+
+      <e><p><l>तब<s n="adv"/></l><r>then<s n="adv"/></r></p></e>
+      <e><p><l>हुआं<s n="adv"/></l><r>there<s n="adv"/></r></p></e>
+      <e><p><l>भी<s n="adv"/></l><r>even<s n="adv"/></r></p></e>
+
+      <e><p><l>आउ<s n="cnj"/></l><r>and<s n="cnj"/></r></p></e>
 
       <e><re>[.\?;:!…¿¶]</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
       <e><re>,</re>          <p><l><s n="cm"/></l>  <r><s n="cm"/></r></p></e>
