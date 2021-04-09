@@ -3,9 +3,13 @@
 ###############################################################################
 
 LANG1=mag
+LANG1a=mag@Lat
+LANG1b=mag@Dev
 LANG2=eng
 PREFIX1=$(LANG1)-$(LANG2)
 PREFIX2=$(LANG2)-$(LANG1)
+PREFIX2a=$(LANG2)-$(LANG1a)
+PREFIX2b=$(LANG2)-$(LANG1b)
 
 BASENAME=apertium-$(PREFIX1)
 
@@ -23,7 +27,8 @@ TARGETS_COMMON =		\
 	$(PREFIX2).rlx.bin	\
 	$(PREFIX2).autobil.bin	\
 	$(PREFIX2).autolex.bin	\
-	$(PREFIX2).autogen.bin	\
+	$(PREFIX2a).autogen.bin	\
+	$(PREFIX2b).autogen.bin \
 	$(PREFIX2).autopgen.bin	\
 	$(PREFIX2).rtx.bin
 
@@ -64,11 +69,17 @@ $(PREFIX1).automorf.bin: .deps/$(LANG1).automorf.hfst .deps/$(PREFIX1).autobil.p
 # Magahi generation:
 # ---------------------
 
-$(PREFIX2).autogen.hfst: $(AP_SRC1)/$(LANG1).autogen.hfst
+$(PREFIX2a).autogen.hfst: $(AP_SRC1)/$(LANG1a).autogen.hfst
+	cp $< $@
+
+$(PREFIX2a).autogen.bin: $(AP_SRC1)/$(LANG1a).autogen.bin
 	cp $< $@
 
 
-$(PREFIX2).autogen.bin: $(AP_SRC1)/$(LANG1).autogen.bin
+$(PREFIX2b).autogen.hfst: $(AP_SRC1)/$(LANG1b).autogen.hfst
+	cp $< $@
+
+$(PREFIX2b).autogen.bin: $(AP_SRC1)/$(LANG1b).autogen.bin
 	cp $< $@
 
 # -------------------
