@@ -126,7 +126,100 @@
   </sdefs>
 
    <section id="main" type="standard">
-      <!-- Define entries within <e> here. -->
+   <!-- was picking randomly, not so 10 sentences would analyze fully-->
+    <!-- Patrick's 16 + 8 = 24-->
+    <!-- 8 nouns -->
+    <e><p><l>phar<s n="n"/></l><r>fruit<s n="n"/></r></p></e>
+    <e><p><l>pānī<s n="n"/></l><r>water<s n="n"/></r></p></e>
+    <e><p><l>hawā<s n="n"/></l><r>air<s n="n"/></r></p></e>
+    <e><p><l>rājā<s n="n"/></l><r>king<s n="n"/></r></p></e><!-- the-king -->
+    <e><p><l>hāth<s n="n"/></l><r>hand<s n="n"/></r></p></e>
+    <e><p><l>chhamā<s n="n"/></l><r>mercy<s n=""/></r></p></e>
+    <e><p><l>iād<s n="n"/></l><r>memory<s n="n"/></r></p></e>
+    <e><p><l>dayā<s n="n"/></l><r>compassion<s n="n"/></r></p></e>
+
+    <e><p><l>thakainī<s n="n"/></l><r>weariness<s n="n"/></r></p></e>
+    <e><p><l>Mahārāj<s n="n"/></l><r>O-great-king<s n="n"/></r></p></e>
+    <e><p><l>kaleān<s n="n"/></l><r>welfare<s n="n"/></r></p></e>
+    <e><p><l>bāt-ke<s n="n"/></l><r>things<s n="n"/></r></p></e>
+    <e><p><l>Narāyan<s n="n"/></l><r>God<s n="n"/></r></p></e>
+    <e><p><l>nām<s n="n"/></l><r>name<s n="n"/></r></p></e>
+    <e><p><l>dam<s n="n"/></l><r>moment<s n="n"/></r></p></e>
+    <e><p><l>sikhāwan<s n="n"/></l><r>advice<s n="n"/></r></p></e>
+    <e><p><l>bāt<s n="n"/></l><r>things<s n="n"/></r></p></e>
+    <e><p><l>pahilā<s n="n"/></l><r>the-first<s n="n"/></r></p></e>
+    <e><p><l>bhulāte<s n="n"/></l><r>way<s n="n"/></r></p></e>
+    <e><p><l>pāoṃ<s n="n"/></l><r>feet<s n="n"/></r></p></e>
+    <e><p><l>ber<s n="n"/></l><r>time<s n="n"/></r></p></e>
+
+
+    <!-- 2 pronouns-->
+    <e><p><l>unkā<s n="prn"/></l><r>him<s n="prn"/></r></p></e><!-- little a-->
+    <e><p><l>hamar<s n="prn"/></l><r>my<s n="prn"/></r></p></e>
+    <e><p><l>hamrā<s n="prn"/></l><r>me<s n="prn"/></r></p></e>
+
+    <!-- 4 verbs -->
+    <e><p><l>rakha<s n="v"/></l><r>keep<s n="v"/></r></p></e>
+    <e><p><l>baith<s n="v"/></l><r>sat<s n="v"/></r></p></e>
+    <e><p><l>delthin<s n="v"/></l><r>gave<s n="v"/></r></p></e><!-- weird a-->
+    <e><p><l>puchhlan<s n="v"/></l><r>asked<s n="v"/></r></p></e><!-- weird a-->
+    <e><p><l>raha<s n="v"/></l><r>used<s n="v"/></r></p></e>
+    <e><p><l>halan<s n="v"/></l><r>live<s n="v"/></r></p></e>
+    <e><p><l>bhulāte<s n="v"/></l><r>losing<s n="v"/></r></p></e>
+    <e><p><l>jā<s n="v"/></l><r>went<s n="v"/></r></p></e>
+    <e><p><l>bollan<s n="v"/></l><r>spoke<s n="v"/></r></p></e>
+
+    <!--- Clearly -ke is a postposition. check if we have it.-->
+    <e><p><l>dekh-ke<s n="v"/></l><r>seeing<s n="v"/></r></p></e>
+    <e><p><l>lāg-ke<s n="v"/></l><r>touching<s n="v"/></r></p></e>
+    <e><p><l>jān-ke<s n="v"/></l><r>knowing<s n="v"/></r></p></e>
+    <e><p><l>pī-ke<s n="v"/></l><r>drinking<s n="v"/></r></p></e>
+    <e><p><l>jor-ke<s n="v"/></l><r>clasping<s n="v"/></r></p></e>
+
+    <!-- why does lā sometimes get a dash, sometimes not?-->
+    <e><p><l>pilā<s n="v"/></l><r>to-drink<s n="v"/></r></p></e>
+    <e><p><l>khāe-lā<s n="v"/></l><r>to-eat<s n="v"/></r></p></e>
+
+    <e><p><l>baith-gēlan<s n="v"/></l><r>sat-down<s n="v"/></r></p></e>
+    <e><p><l>bhelan<s n="v"/></l><r>became<s n="v"/></r></p></e>
+    <e><p><l>nikal-gelain<s n="v"/></l><r>was-removed<s n="v"/></r></p></e>
+    <e><p><l>kahīṃ<s n="v"/></l><r>say<s n="v"/></r></p></e>
+    <e><p><l>japnā<s n="v"/></l><r>should-be-muttered<s n="v"/></r></p></e>
+
+    <!-- 3 adjectives -->
+    <e><p><l>thandhā<s n="adj"/></l><r>cool<s n="adj"/></r></p></e>
+    <e><p><l>ego<s n="adj"/></l><r>one<s n="adj"/></r></p></e>
+    <e><p><l>bhīrī<s n="adj"/></l><r>near<s n="adj"/></r></p></e>
+    <e><p><l>piāsal<s n="adj"/></l><r>thirsty<s n="adj"/></r></p></e>
+    <e><p><l>khus<s n="adj"/></l><r>glad<s n="adj"/></r></p></e>
+    <e><p><l>bahut<s n="adv"/></l><r>very<s n="adv"/></r></p></e>
+    <e><p><l>chāro<s n="adj"/></l><r>four<s n="adj"/></r></p></e>
+
+    <!-- omniglot 3 below-->
+    <!-- 3 adverbs --> 
+    <e><p><l>हाँ<s n="adv"/></l><r>yes<s n="adv"/></r></p></e>
+    <e><p><l>नयँ<s n="adv"/></l><r>no<s n="adv"/></r></p></e>
+    <e><p><l>शायद<s n="adv"/></l><r>maybe<s n="adv"/></r></p></e>
+    <e><p><l>bahut<s n="adv"/></l><r>very<s n="adv"/></r></p></e>
+    
+    <!-- 4 others-->   
+    <e><p><l>ke<s n=""/></l><r>that<s n=""/></r></p></e><!-- prn or adj?-->
+    <e><p><l>har<s n=""/></l><r>every<s n=""/></r></p></e>
+    <e><p><l>ī<s n=""/></l><r>this<s n=""/></r></p></e>
+    <e><p><l>tab<s n=""/></l><r>then<s n=""/></r></p></e>
+    <e><p><l>pahuṃchlan<s n=""/></l><r>up-to<s n=""/></r></p></e>
+    <e><p><l>thorā-aisan<s n=""/></l><r>a-little-like<s n=""/></r></p></e>
+    <e><p><l>meṃ<s n=""/></l><r>in<s n=""/></r></p></e>
+    <e><p><l>thore<s n=""/></l><r>some<s n=""/></r></p></e>
+    <e><p><l>baithlā-se<s n=""/></l><r>sitting-by<s n=""/></r></p></e>
+    <e><p><l>huchh<s n=""/></l><r>some<s n=""/></r></p></e>
+    <e><p><l>jekrā-se<s n=""/></l><r>which<s n=""/></r></p></e>
+    <e><p><l>hoy<s n=""/></l><r>may-be<s n=""/></r></p></e>
+    <e><p><l>sāmī-ke<s n=""/></l><r>lord-of<s n=""/></r></p></e>
+
+    <!-- William's: -->
+      <!-- Define entries within <e> here. 18 + 7 = 25-->
+      <!-- 7 verbs -->
       <e><p><l>घुर<s n="v"/></l><r>return<s n="v"/></r></p></e>
       <e><p><l>खोजते<s n="v"/></l><r>search<s n="v"/></r></p></e>
       <e><p><l>बैठ<s n="v"/></l><r>sit<s n="v"/></r></p></e>
@@ -135,6 +228,7 @@
       <e><p><l>बनाला<s n="v"/></l><r>make<s n="v"/></r></p></e>
       <e><p><l>सुन<s n="v"/></l><r>hear<s n="v"/></r></p></e>
 
+    <!-- 11 nouns -->
       <e><p><l>गांव<s n="n"/></l><r>village<s n="n"/></r></p></e>
       <e><p><l>राजा<s n="n"/></l><r>king<s n="n"/></r></p></e>
       <e><p><l>साधू<s n="n"/></l><r>saint<s n="n"/></r></p></e>
@@ -142,19 +236,22 @@
       <e><p><l>सिपाही<s n="n"/></l><r>seoys<s n="n"/></r></p></e>
       <e><p><l>एतना<s n="n"/></l><r>meantime<s n="n"/></r></p></e>
       <e><p><l>तपसेआ<s n="n"/></l><r>austerities<s n="n"/></r></p></e> <!-- NOT SURE -->
-      <e><p><l>जङगल<s n="n"/></l><r>forest<s n="n"/></r></p></e>
+      <e><p><l>jangal<s n="n"/></l><r>forest<s n="n"/></r></p></e>
       <e><p><l>नेआव<s n="n"/></l><r>justice<s n="n"/></r></p></e>
       <e><p><l>छेला<s n="n"/></l><r>disciple<s n="n"/></r></p></e>
       <e><p><l>पांओ<s n="n"/></l><r>feet<s n="n"/></r></p></e>
 
+    <!-- 3 adjectives -->
       <e><p><l>अपन<s n="adj"/></l><r>own<s n="adj"/></r></p></e>
       <e><p><l>बेलस<s n="adj"/></l><r>better<s n="adj"/></r></p></e>
       <e><p><l>परन<s n="adj"/></l><r>low<s n="adj"/></r></p></e> <!-- NOT SURE -->
 
+    <!--- 3 adverbs -->
       <e><p><l>तब<s n="adv"/></l><r>then<s n="adv"/></r></p></e>
       <e><p><l>हुआं<s n="adv"/></l><r>there<s n="adv"/></r></p></e>
       <e><p><l>भी<s n="adv"/></l><r>even<s n="adv"/></r></p></e>
 
+    <!-- 1 conjunction-->
       <e><p><l>आउ<s n="cnj"/></l><r>and<s n="cnj"/></r></p></e>
 
       <e><re>[.\?;:!…¿¶]</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
