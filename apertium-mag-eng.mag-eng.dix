@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dictionary>
    <!-- Define the alphabet below. -->
-  <alphabet>aAáÁăảạÆbBcCčdDÐeEéèễệfFgGhHiIíjJkKlLmMnNoOóöớpPqQrRsSšştTŢuUúüưvVwWxXyYzZकखगघङचछजझञटठडढणतथदधनपफबभमहरशषसवअइउएओऐऔआईऊिुेोैौाीू</alphabet>
+  <alphabet>aAáÁăảạÆbBcCčdDÐeEéèễệfFgGhHiIíjJkKlLmMnNoOóöớpPqQrRsSšştTŢuUúüưvVwWxXyYzZ</alphabet>
 
   <sdefs>
     <!-- Define symbol definitions within <sdef> here. -->
@@ -10,6 +10,7 @@
     <sdef n="vblex"           c="Verb, lexical"/>
     <sdef n="vbmod"           c="Modal verb"/>
     <sdef n="v"               c="Verb"/>
+    <sdef n="aux"             c="Auxiliary"/>
     <sdef n="vaux"            c="Auxiliary verb"/>
     <sdef n="vbser"           c="'To be' verb"/>
     <sdef n="vbhaver"         c="'To have' verb"/>
@@ -131,128 +132,130 @@
     <!-- 8 nouns -->
     <e><p><l>phar<s n="n"/></l><r>fruit<s n="n"/></r></p></e>
     <e><p><l>pānī<s n="n"/></l><r>water<s n="n"/></r></p></e>
-    <e><p><l>hawā<s n="n"/></l><r>air<s n="n"/></r></p></e>
+    <e><p><l>Hawā<s n="n"/></l><r>air<s n="n"/></r></p></e>
     <e><p><l>rājā<s n="n"/></l><r>king<s n="n"/></r></p></e><!-- the-king -->
-    <e><p><l>hāth<s n="n"/></l><r>hand<s n="n"/></r></p></e>
-    <e><p><l>chhamā<s n="n"/></l><r>mercy<s n=""/></r></p></e>
+    <e><p><l>Hāth<s n="n"/></l><r>hand<s n="n"/></r></p></e>
+    <e><p><l>chamā<s n="n"/></l><r>mercy<s n="n"/></r></p></e>
     <e><p><l>iād<s n="n"/></l><r>memory<s n="n"/></r></p></e>
     <e><p><l>dayā<s n="n"/></l><r>compassion<s n="n"/></r></p></e>
 
     <e><p><l>thakainī<s n="n"/></l><r>weariness<s n="n"/></r></p></e>
-    <e><p><l>Mahārāj<s n="n"/></l><r>O-great-king<s n="n"/></r></p></e>
+    <e><p><l>mahārāj<s n="n"/></l><r>great-king<s n="n"/></r></p></e> <!-- I believe mahā just means great -->
     <e><p><l>kaleān<s n="n"/></l><r>welfare<s n="n"/></r></p></e>
-    <e><p><l>bāt-ke<s n="n"/></l><r>things<s n="n"/></r></p></e>
-    <e><p><l>Narāyan<s n="n"/></l><r>God<s n="n"/></r></p></e>
+    <e><p><l>bāṭ<s n="n"/></l><r>thing<s n="n"/></r></p></e>
+    <e><p><l>narāyan<s n="n"/></l><r>God<s n="n"/></r></p></e>
     <e><p><l>nām<s n="n"/></l><r>name<s n="n"/></r></p></e>
     <e><p><l>dam<s n="n"/></l><r>moment<s n="n"/></r></p></e>
     <e><p><l>sikhāwan<s n="n"/></l><r>advice<s n="n"/></r></p></e>
-    <e><p><l>bāt<s n="n"/></l><r>things<s n="n"/></r></p></e>
-    <e><p><l>pahilā<s n="n"/></l><r>the-first<s n="n"/></r></p></e>
+    <e><p><l>paHilā<s n="n"/></l><r>first<s n="n"/></r></p></e>
     <e><p><l>bhulāte<s n="n"/></l><r>way<s n="n"/></r></p></e>
     <e><p><l>pāoṃ<s n="n"/></l><r>feet<s n="n"/></r></p></e>
     <e><p><l>ber<s n="n"/></l><r>time<s n="n"/></r></p></e>
+    <e><p><l>sāmī<s n="n"/></l><r>lord<s n="n"/></r></p></e>
+    <e><p><l>sādhū<s n="n"/></l><r>saint<s n="n"/></r></p></e>
 
 
     <!-- 2 pronouns-->
     <e><p><l>unkā<s n="prn"/></l><r>him<s n="prn"/></r></p></e><!-- little a-->
     <e><p><l>hamar<s n="prn"/></l><r>my<s n="prn"/></r></p></e>
     <e><p><l>hamrā<s n="prn"/></l><r>me<s n="prn"/></r></p></e>
+    <e><p><l>ī<s n="prn"/></l><r>this<s n="prn"/></r></p></e>
+    <e><p><l>jekrā<s n="prn"/></l><r>which<s n="prn"/></r></p></e>
 
     <!-- 4 verbs -->
     <e><p><l>rakha<s n="v"/></l><r>keep<s n="v"/></r></p></e>
-    <e><p><l>baith<s n="v"/></l><r>sat<s n="v"/></r></p></e>
-    <e><p><l>delthin<s n="v"/></l><r>gave<s n="v"/></r></p></e><!-- weird a-->
-    <e><p><l>puchhlan<s n="v"/></l><r>asked<s n="v"/></r></p></e><!-- weird a-->
-    <e><p><l>raha<s n="v"/></l><r>used<s n="v"/></r></p></e>
-    <e><p><l>halan<s n="v"/></l><r>live<s n="v"/></r></p></e>
+    <e><p><l>baiṭh<s n="v"/></l><r>sat<s n="v"/></r></p></e>
+    <e><p><l>da<s n="v"/></l><r>give<s n="v"/></r></p></e><!-- -lthin is some grammar stuff that differs from what we have-->
+    <e><p><l>puch<s n="v"/></l><r>ask<s n="v"/></r></p></e><!-- same with -lan -->
+    <e><p><l>raha<s n="v"/></l><r>live<s n="v"/></r></p></e> <!-- I think halan is the auxiliary and raha is in its basic participal form -->
     <e><p><l>bhulāte<s n="v"/></l><r>losing<s n="v"/></r></p></e>
-    <e><p><l>jā<s n="v"/></l><r>went<s n="v"/></r></p></e>
-    <e><p><l>bollan<s n="v"/></l><r>spoke<s n="v"/></r></p></e>
+    <e><p><l>jā<s n="v"/></l><r>go<s n="v"/></r></p></e>
+    <e><p><l>ge<s n="v"/></l><r>went<s n="v"/></r></p></e>
+    <e><p><l>bol<s n="v"/></l><r>speak<s n="v"/></r></p></e>
 
     <!--- Clearly -ke is a postposition. check if we have it.-->
-    <e><p><l>dekh-ke<s n="v"/></l><r>seeing<s n="v"/></r></p></e>
-    <e><p><l>lāg-ke<s n="v"/></l><r>touching<s n="v"/></r></p></e>
-    <e><p><l>jān-ke<s n="v"/></l><r>knowing<s n="v"/></r></p></e>
-    <e><p><l>pī-ke<s n="v"/></l><r>drinking<s n="v"/></r></p></e>
-    <e><p><l>jor-ke<s n="v"/></l><r>clasping<s n="v"/></r></p></e>
+    <!--- We do -->
+    <e><p><l>dekh<s n="v"/></l><r>see<s n="v"/></r></p></e>
+    <e><p><l>lāg<s n="v"/></l><r>touch<s n="v"/></r></p></e>
+    <e><p><l>jān<s n="v"/></l><r>know<s n="v"/></r></p></e>
+    <e><p><l>pī<s n="v"/></l><r>drink<s n="v"/></r></p></e>
+    <e><p><l>jor<s n="v"/></l><r>clasp<s n="v"/></r></p></e>
 
     <!-- why does lā sometimes get a dash, sometimes not?-->
-    <e><p><l>pilā<s n="v"/></l><r>to-drink<s n="v"/></r></p></e>
-    <e><p><l>khāe-lā<s n="v"/></l><r>to-eat<s n="v"/></r></p></e>
+    <!-- pilā: oblique nominal form of pī (drink), i.e. for drinking vs pī-lā: pi followed by postposition lā meaning for the benefit of drinking, so water is a pilā while a cup is pī lā, I think -->
+    <e><p><l>khā<s n="v"/></l><r>eat<s n="v"/></r></p></e>
 
-    <e><p><l>baith-gēlan<s n="v"/></l><r>sat-down<s n="v"/></r></p></e>
-    <e><p><l>bhelan<s n="v"/></l><r>became<s n="v"/></r></p></e>
-    <e><p><l>nikal-gelain<s n="v"/></l><r>was-removed<s n="v"/></r></p></e>
-    <e><p><l>kahīṃ<s n="v"/></l><r>say<s n="v"/></r></p></e>
-    <e><p><l>japnā<s n="v"/></l><r>should-be-muttered<s n="v"/></r></p></e>
+    <e><p><l>bhe<s n="v"/></l><r>become<s n="v"/></r></p></e>
+    <!-- <e><p><l>nikal-gelain<s n="v"/></l><r>was-removed<s n="v"/></r></p></e> --> <!-- According to this source, ge- is the stem of the past tense of jā, meaning to go, so I think here nikal means out or something like that and gelain means went -->
+    <e><p><l>kah<s n="v"/></l><r>say<s n="v"/></r></p></e>
+    <e><p><l>japnā<s n="v"/></l><r>should-be-muttered<s n="v"/></r></p></e> <!-- no idea what this should be analyzed as -->
 
     <!-- 3 adjectives -->
-    <e><p><l>thandhā<s n="adj"/></l><r>cool<s n="adj"/></r></p></e>
+    <e><p><l>ṭhanḍhā<s n="adj"/></l><r>cool<s n="adj"/></r></p></e>
     <e><p><l>ego<s n="adj"/></l><r>one<s n="adj"/></r></p></e>
     <e><p><l>bhīrī<s n="adj"/></l><r>near<s n="adj"/></r></p></e>
     <e><p><l>piāsal<s n="adj"/></l><r>thirsty<s n="adj"/></r></p></e>
     <e><p><l>khus<s n="adj"/></l><r>glad<s n="adj"/></r></p></e>
-    <e><p><l>bahut<s n="adv"/></l><r>very<s n="adv"/></r></p></e>
     <e><p><l>chāro<s n="adj"/></l><r>four<s n="adj"/></r></p></e>
+    <e><p><l>koī<s n="adj"/></l><r>certain<s n="adj"/></r></p></e>
 
     <!-- omniglot 3 below-->
     <!-- 3 adverbs --> 
-    <e><p><l>हाँ<s n="adv"/></l><r>yes<s n="adv"/></r></p></e>
-    <e><p><l>नयँ<s n="adv"/></l><r>no<s n="adv"/></r></p></e>
-    <e><p><l>शायद<s n="adv"/></l><r>maybe<s n="adv"/></r></p></e>
+    <e><p><l>hāṃ<s n="adv"/></l><r>yes<s n="adv"/></r></p></e>
+    <e><p><l>nayaṃ<s n="adv"/></l><r>no<s n="adv"/></r></p></e>
+    <e><p><l>sāyad<s n="adv"/></l><r>maybe<s n="adv"/></r></p></e>
     <e><p><l>bahut<s n="adv"/></l><r>very<s n="adv"/></r></p></e>
+    <e><p><l>tab<s n="adv"/></l><r>then<s n="adv"/></r></p></e>
     
     <!-- 4 others-->   
-    <e><p><l>ke<s n=""/></l><r>that<s n=""/></r></p></e><!-- prn or adj?-->
-    <e><p><l>har<s n=""/></l><r>every<s n=""/></r></p></e>
-    <e><p><l>ī<s n=""/></l><r>this<s n=""/></r></p></e>
-    <e><p><l>tab<s n=""/></l><r>then<s n=""/></r></p></e>
-    <e><p><l>pahuṃchlan<s n=""/></l><r>up-to<s n=""/></r></p></e>
-    <e><p><l>thorā-aisan<s n=""/></l><r>a-little-like<s n=""/></r></p></e>
-    <e><p><l>meṃ<s n=""/></l><r>in<s n=""/></r></p></e>
-    <e><p><l>thore<s n=""/></l><r>some<s n=""/></r></p></e>
-    <e><p><l>baithlā-se<s n=""/></l><r>sitting-by<s n=""/></r></p></e>
-    <e><p><l>huchh<s n=""/></l><r>some<s n=""/></r></p></e>
-    <e><p><l>jekrā-se<s n=""/></l><r>which<s n=""/></r></p></e>
-    <e><p><l>hoy<s n=""/></l><r>may-be<s n=""/></r></p></e>
-    <e><p><l>sāmī-ke<s n=""/></l><r>lord-of<s n=""/></r></p></e>
+    <e><p><l>ke<s n="post"/></l><r>of<s n="pr"/></r></p></e> <!-- no good single translation -->
+    <e><p><l>meṃ<s n="post"/></l><r>in<s n="pr"/></r></p></e>
+    <e><p><l>par<s n="post"/></l><r>on<s n="pr"/></r></p></e>
+    <e><p><l>lā<s n="post"/></l><r>for<s n="pr"/></r></p></e>
+    <e><p><l>se<s n="post"/></l><r>with<s n="pr"/></r></p></e> <!-- with or from -->
+    <e><p><l>jī<s n="post"/></l><r>the<s n="pr"/></r></p></e> <!-- I think definiteness is usually marked with the suffix -wā; maybe this is old fashioned -->
+
+    <e><p><l>thoṛe<s n="adj"/></l><r>some<s n="adj"/></r></p></e>
+    <e><p><l>har<s n="det"/></l><r>every<s n="det"/></r></p></e>
+    <e><p><l>huch<s n="det"/></l><r>some<s n="det"/></r></p></e>
+
+    <!-- these have got to be compounds, no idea of what though -->
+    <e><p><l>pahuṃchlan<s n="adv"/></l><r>up-to<s n="adv"/></r></p></e>
+    <e><p><l>thoṛā-aisan<s n="post"/></l><r>a-little-like<s n="pr"/></r></p></e>
+
+    <!-- this is a conjugation of the auxiliary, which is a sort of be/have combo -->
+    <e><p><l>Hoy<s n="v"/></l><r>may-be<s n="v"/></r></p></e>
 
     <!-- William's: -->
       <!-- Define entries within <e> here. 18 + 7 = 25-->
       <!-- 7 verbs -->
-      <e><p><l>घुर<s n="v"/></l><r>return<s n="v"/></r></p></e>
-      <e><p><l>खोजते<s n="v"/></l><r>search<s n="v"/></r></p></e>
-      <e><p><l>बैठ<s n="v"/></l><r>sit<s n="v"/></r></p></e>
-      <e><p><l>जा<s n="v"/></l><r>go<s n="v"/></r></p></e>
-      <e><p><l>कह<s n="v"/></l><r>say<s n="v"/></r></p></e>
-      <e><p><l>बनाला<s n="v"/></l><r>make<s n="v"/></r></p></e>
-      <e><p><l>सुन<s n="v"/></l><r>hear<s n="v"/></r></p></e>
+      <e><p><l>ghur<s n="v"/></l><r>return<s n="v"/></r></p></e>
+      <e><p><l>khojate<s n="v"/></l><r>search<s n="v"/></r></p></e>
+      <e><p><l>banālā<s n="v"/></l><r>make<s n="v"/></r></p></e>
+      <e><p><l>sun<s n="v"/></l><r>hear<s n="v"/></r></p></e>
+      <e><p><l>Ha<s n="aux"/></l><r>be<s n="vaux"/></r></p></e>
 
     <!-- 11 nouns -->
-      <e><p><l>गांव<s n="n"/></l><r>village<s n="n"/></r></p></e>
-      <e><p><l>राजा<s n="n"/></l><r>king<s n="n"/></r></p></e>
-      <e><p><l>साधू<s n="n"/></l><r>saint<s n="n"/></r></p></e>
-      <e><p><l>पतुकी<s n="n"/></l><r>followers<s n="n"/></r></p></e>
-      <e><p><l>सिपाही<s n="n"/></l><r>seoys<s n="n"/></r></p></e>
-      <e><p><l>एतना<s n="n"/></l><r>meantime<s n="n"/></r></p></e>
-      <e><p><l>तपसेआ<s n="n"/></l><r>austerities<s n="n"/></r></p></e> <!-- NOT SURE -->
-      <e><p><l>jangal<s n="n"/></l><r>forest<s n="n"/></r></p></e>
-      <e><p><l>नेआव<s n="n"/></l><r>justice<s n="n"/></r></p></e>
-      <e><p><l>छेला<s n="n"/></l><r>disciple<s n="n"/></r></p></e>
-      <e><p><l>पांओ<s n="n"/></l><r>feet<s n="n"/></r></p></e>
+      <e><p><l>gāṃ<s n="n"/></l><r>village<s n="n"/></r></p></e>
+      <e><p><l>patukī<s n="n"/></l><r>followers<s n="n"/></r></p></e>
+      <e><p><l>sipāHī<s n="n"/></l><r>sepoy<s n="n"/></r></p></e>
+      <e><p><l>etnā<s n="n"/></l><r>meantime<s n="n"/></r></p></e>
+      <e><p><l>tapseā<s n="n"/></l><r>austerities<s n="n"/></r></p></e> <!-- NOT SURE -->
+      <e><p><l>jaṅgal<s n="n"/></l><r>forest<s n="n"/></r></p></e>
+      <e><p><l>neāw<s n="n"/></l><r>justice<s n="n"/></r></p></e>
+      <e><p><l>chelā<s n="n"/></l><r>disciple<s n="n"/></r></p></e>
 
     <!-- 3 adjectives -->
-      <e><p><l>अपन<s n="adj"/></l><r>own<s n="adj"/></r></p></e>
-      <e><p><l>बेलस<s n="adj"/></l><r>better<s n="adj"/></r></p></e>
-      <e><p><l>परन<s n="adj"/></l><r>low<s n="adj"/></r></p></e> <!-- NOT SURE -->
+      <e><p><l>apan<s n="adj"/></l><r>own<s n="adj"/></r></p></e>
+      <e><p><l>bes<s n="adj"/></l><r>better<s n="adj"/></r></p></e>
+      <e><p><l>paran<s n="adj"/></l><r>low<s n="adj"/></r></p></e> <!-- NOT SURE -->
 
     <!--- 3 adverbs -->
-      <e><p><l>तब<s n="adv"/></l><r>then<s n="adv"/></r></p></e>
-      <e><p><l>हुआं<s n="adv"/></l><r>there<s n="adv"/></r></p></e>
-      <e><p><l>भी<s n="adv"/></l><r>even<s n="adv"/></r></p></e>
+      <e><p><l>huāṃ<s n="adv"/></l><r>there<s n="adv"/></r></p></e>
+      <e><p><l>bhī<s n="adv"/></l><r>even<s n="adv"/></r></p></e>
 
     <!-- 1 conjunction-->
-      <e><p><l>आउ<s n="cnj"/></l><r>and<s n="cnj"/></r></p></e>
+      <e><p><l>āu<s n="cnj"/></l><r>and<s n="cnj"/></r></p></e>
 
       <e><re>[.\?;:!…¿¶]</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
       <e><re>,</re>          <p><l><s n="cm"/></l>  <r><s n="cm"/></r></p></e>
