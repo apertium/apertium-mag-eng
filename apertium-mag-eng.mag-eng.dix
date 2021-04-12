@@ -149,6 +149,8 @@
     <e><p><l>sikhāwan<s n="n"/></l><r>advice<s n="n"/></r></p></e>
     <e><p><l>paHilā<s n="n"/></l><r>first<s n="n"/></r></p></e>
     <e><p><l>dūsar<s n="n"/></l><r>second<s n="n"/></r></p></e>
+    <e><p><l>tīsar<s n="n"/></l><r>third<s n="n"/></r></p></e>
+    <e><p><l>dayā<s n="n"/></l><r>compassion<s n="n"/></r></p></e>
     <e><p><l>bhulāte<s n="n"/></l><r>way<s n="n"/></r></p></e>
     <e><p><l>pāoṃ<s n="n"/></l><r>feet<s n="n"/></r></p></e>
     <e><p><l>ber<s n="n"/></l><r>time<s n="n"/></r></p></e>
@@ -164,7 +166,7 @@
     <e><p><l>jekrā<s n="prn"/></l><r>which<s n="prn"/></r></p></e>
 
     <!-- 4 verbs -->
-    <e><p><l>rakha<s n="v"/></l><r>keep<s n="v"/></r></p></e>
+    <e><p><l>rakh<s n="v"/></l><r>keep<s n="v"/></r></p></e>
     <e><p><l>baiṭh<s n="v"/></l><r>sat<s n="v"/></r></p></e>
     <e><p><l>de<s n="v"/></l><r>give<s n="v"/></r></p></e><!-- -lthin is some grammar stuff that differs from what we have-->
     <e><p><l>puch<s n="v"/></l><r>ask<s n="v"/></r></p></e><!-- same with -lan -->
@@ -173,6 +175,7 @@
     <e><p><l>jā<s n="v"/></l><r>go<s n="v"/></r></p></e>
     <e><p><l>ge<s n="v"/></l><r>went<s n="v"/></r></p></e>
     <e><p><l>bol<s n="v"/></l><r>speak<s n="v"/></r></p></e>
+    <e><p><l>jap<s n="v"/></l><r>mutter<s n="v"/></r></p></e>
 
     <!--- Clearly -ke is a postposition. check if we have it.-->
     <!--- We do -->
