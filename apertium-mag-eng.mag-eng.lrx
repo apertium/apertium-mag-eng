@@ -5,11 +5,71 @@
     Add your own rules within <rule> here, using the resources below as a guide
   -->
 
+  <!-- genitive -->
   <rule>
-    <match lemma="wind"/>
-    <match lemma="power" tags="n.*">
-      <select lemma="energía" tags="n.*"/>
+    <match tags="n.*"/>
+    <match tags="n.*"/>
+    <match lemma="ke">
+      <select lemma="of"/>
     </match>
+  </rule>
+
+  <!-- accusative -->
+  <rule>
+    <match tags="v.*"/>
+    <match tags="n.*"/>
+    <match lemma="ke">
+      <select lemma=""/>
+    </match>
+  </rule>
+
+  <!-- dative -->
+  <rule>
+    <match tags="n.*"/>
+    <match tags="n.*"/>
+    <match lemma="ke">
+      <select lemma="to"/>
+    </match>
+    <match tags="v.*"/>
+  </rule>
+
+  <!-- that -->
+  <rule>
+    <match tags="v.*"/>
+    <match lemma="ke">
+      <select lemma="that"/>
+    </match>
+  </rule>
+
+  <!-- se -->
+  <rule>
+    <match tags="n.*"/>
+    <match lemma="se">
+      <select lemma="with"/>
+    </match>
+    <match tags="v.*"/>
+  </rule>
+  <rule>
+    <match lemma="jī" tags="post.*"/>
+    <match lemma="se">
+      <select lemma="to"/>
+    </match>
+  </rule>
+  <rule>
+    <or>
+	<match tags="v.*"/>
+	<match tags=".*rel.*"/>
+    </or>
+    <match lemma="se">
+      <select lemma="by"/>
+    </match>
+  </rule>
+  <rule>
+    <match tags="n.*"/>
+    <match lemma="se">
+      <select lemma="for"/>
+    </match>
+    <match tags="n.*"/>
   </rule>
 </rules>
 

@@ -213,10 +213,16 @@
     
     <!-- 4 others-->   
     <e><p><l>ke<s n="post"/></l><r>of<s n="pr"/></r></p></e> <!-- no good single translation -->
+    <e><p><l>ke<s n="post"/></l><r>to<s n="pr"/></r></p></e> <!-- no good single translation -->
+    <e><p><l>ke<s n="post"/></l><r>that<s n="cnjsub"/></r></p></e> <!-- no good single translation -->
+    <e r="LR"><p><l>ke<s n="post"/></l><r></r></p></e> <!-- no good single translation -->
     <e><p><l>meṃ<s n="post"/></l><r>in<s n="pr"/></r></p></e>
     <e><p><l>par<s n="post"/></l><r>on<s n="pr"/></r></p></e>
     <e><p><l>lā<s n="post"/></l><r>for<s n="cnjadv"/></r></p></e>
-    <e><p><l>se<s n="post"/></l><r>with<s n="pr"/></r></p></e> <!-- with or from -->
+    <e><p><l>se<s n="post"/></l><r>by<s n="pr"/></r></p></e>
+    <e><p><l>se<s n="post"/></l><r>with<s n="pr"/></r></p></e>
+    <e><p><l>se<s n="post"/></l><r>for<s n="pr"/></r></p></e>
+    <e><p><l>se<s n="post"/></l><r>to<s n="pr"/></r></p></e>
     <e><p><l>jī<s n="post"/></l><r>the<s n="pr"/></r></p></e> <!-- I think definiteness is usually marked with the suffix -wā; maybe this is old fashioned -->
 
     <e><p><l>thoṛe<s n="adj"/></l><r>some<s n="adj"/></r></p></e>
