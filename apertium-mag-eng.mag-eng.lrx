@@ -14,13 +14,21 @@
     </match>
   </rule>
 
+  <rule>
+    <match tags="n.*"/>
+    <match lemma="ke">
+      <select lemma="of"/>
+    </match>
+    <match tags="n.*"/>
+  </rule>
+
   <!-- accusative -->
   <rule>
-    <match tags="v.*"/>
     <match tags="n.*"/>
     <match lemma="ke">
       <select lemma=""/>
     </match>
+    <match tags="v.*"/>
   </rule>
 
   <!-- dative -->
@@ -30,7 +38,7 @@
     <match lemma="ke">
       <select lemma="to"/>
     </match>
-    <match tags="v.*"/>
+    <match tags="n.*"/>
   </rule>
 
   <!-- that -->
