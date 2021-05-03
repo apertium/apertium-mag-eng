@@ -4,19 +4,33 @@
 
 number = (ND sg) sg pl sp ND;
 gender = (GD m) m f mf GD;
+person = (PD p3) p1 p2 p3 PD;
 det_type = def ind dem itg;
-tense = pres past fut ifi pri fti;
+tense = pres past fut ifi pri fti inf;
+subject = (SD s_p1) s_p1 s_p2 s_p3 SD;
+adjective_type = sint preadj preadj_nh;
 
 !!!!!!!!!!!!!!!
 !! OUTPUT PATTERNS
 !!!!!!!!!!!!!!!
 
-n: _.gender.number;
-adj: _.gender.number;
+n: _.number;
+adj: _.adjective_type;
 det_default: _.det_type;
 det_def: _.det_type.number;
+pr: _;
+vbmod: _;
+v: _.subject ;
+vpers: _.tense.person.number ;
+vnotpers: _.tense ;
 
+S: _ ;
 NP: _.number;
+PP: _ ;
+DP: _.person.number ;
+VP: _.subject ;
+vP: _.subject ;
+AP: _ ;
 
 !!!!!!!!!!!!!!!
 !! TAG-REWRITE RULES
@@ -28,16 +42,35 @@ tense > tense : ifi past, pri pres, fti fut;
 !! MACROS
 !!!!!!!!!!!!!!!
 
-det: (if (1.det_type = def or 1.det_type = ind)
-         1(det_def)
-      else
-         1(det_default));
+! subject_person: (if (1.person = s_p1)
+! 		    1(p1)
+! 		 else (if (1.person = s_p2)
+! 		      	  1(p2)
+! 			else 1(p3)));
 
 !!!!!!!!!!!!!!!
 !! REDUCTION RULES
 !!!!!!!!!!!!!!!
 
-NP -> n.$number adj { 2[gender=1.gender, number=1.number] _ 1 } ;
+S -> DP VP { 1 _ %2 } ;
+PP -> DP %post { %2(pr) _ 1 } ;
+DP -> NP { the@det.def.sp _ %1 } ;
+AP -> adj { 1[adjective_type=sint] } ;
+NP -> n { %1 } |
+      n PP { 1 _ %2 } |
+      AP n { %1 _ 2 } ;
+VP -> %vP { %1 } ;
+      ! DP %vP { 2 _ %1 } |
+vP -> v.$tense.$subject {
+   (if (1.subject = s_p3 And 1.tense = pres)
+        1(vpers)[person=p3, number=sg]
+    else
+        (if (1.tense = fut)
+	    [ will@vbmod.pres _ 1(vnotpers)[tense=inf] ]
+	else
+	    1(vnotpers))
+    )
+} ;
 
 ! Resources:
 ! http://wiki.apertium.org/wiki/Apertium-recursive

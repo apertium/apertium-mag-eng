@@ -167,38 +167,38 @@
     <e><p><l>jekrā<s n="prn"/></l><r>which<s n="prn"/></r></p></e>
 
     <!-- 4 verbs -->
-    <e><p><l>rakh<s n="v"/></l><r>keep<s n="v"/></r></p></e>
-    <e><p><l>baiṭh<s n="v"/></l><r>sat<s n="v"/></r></p></e>
-    <e><p><l>de<s n="v"/></l><r>give<s n="v"/></r></p></e><!-- -lthin is some grammar stuff that differs from what we have-->
-    <e><p><l>puch<s n="v"/></l><r>ask<s n="v"/></r></p></e><!-- same with -lan -->
-    <e><p><l>raHa<s n="v"/></l><r>live<s n="v"/></r></p></e> <!-- I think halan is the auxiliary and raha is in its basic participal form -->
-    <e><p><l>bhulāte<s n="v"/></l><r>losing<s n="v"/></r></p></e>
-    <e><p><l>jā<s n="v"/></l><r>go<s n="v"/></r></p></e>
-    <e><p><l>ge<s n="v"/></l><r>went<s n="v"/></r></p></e>
-    <e><p><l>bol<s n="v"/></l><r>speak<s n="v"/></r></p></e>
-    <e><p><l>jap<s n="v"/></l><r>mutter<s n="v"/></r></p></e>
-    <e><p><l>rāj<s n="v"/></l><r>govern<s n="v"/></r></p></e>
-    <e><p><l>kar<s n="v"/></l><r>do<s n="v"/></r></p></e><!-- sanscrit knowledge-->
+    <e><p><l>rakh<s n="v"/></l><r>keep<s n="vblex"/></r></p></e>
+    <e><p><l>baiṭh<s n="v"/></l><r>sat<s n="vblex"/></r></p></e>
+    <e><p><l>de<s n="v"/></l><r>give<s n="vblex"/></r></p></e><!-- -lthin is some grammar stuff that differs from what we have-->
+    <e><p><l>puch<s n="v"/></l><r>ask<s n="vblex"/></r></p></e><!-- same with -lan -->
+    <e><p><l>raHa<s n="v"/></l><r>live<s n="vblex"/></r></p></e> <!-- I think halan is the auxiliary and raha is in its basic participal form -->
+    <e><p><l>bhulāte<s n="v"/></l><r>losing<s n="vblex"/></r></p></e>
+    <e><p><l>jā<s n="v"/></l><r>go<s n="vblex"/></r></p></e>
+    <e><p><l>ge<s n="v"/></l><r>went<s n="vblex"/></r></p></e>
+    <e><p><l>bol<s n="v"/></l><r>speak<s n="vblex"/></r></p></e>
+    <e><p><l>jap<s n="v"/></l><r>mutter<s n="vblex"/></r></p></e>
+    <e><p><l>rāj<s n="v"/></l><r>govern<s n="vblex"/></r></p></e>
+    <e><p><l>kar<s n="v"/></l><r>do<s n="vblex"/></r></p></e><!-- sanscrit knowledge-->
 
     <!--- Clearly -ke is a postposition. check if we have it.-->
     <!--- We do -->
-    <e><p><l>dekh<s n="v"/></l><r>see<s n="v"/></r></p></e>
-    <e><p><l>lāg<s n="v"/></l><r>touch<s n="v"/></r></p></e>
-    <e><p><l>jān<s n="v"/></l><r>know<s n="v"/></r></p></e>
-    <e><p><l>pī<s n="v"/></l><r>drink<s n="v"/></r></p></e>
-    <e><p><l>jor<s n="v"/></l><r>clasp<s n="v"/></r></p></e>
+    <e><p><l>dekh<s n="v"/></l><r>see<s n="vblex"/></r></p></e>
+    <e><p><l>lāg<s n="v"/></l><r>touch<s n="vblex"/></r></p></e>
+    <e><p><l>jān<s n="v"/></l><r>know<s n="vblex"/></r></p></e>
+    <e><p><l>pī<s n="v"/></l><r>drink<s n="vblex"/></r></p></e>
+    <e><p><l>jor<s n="v"/></l><r>clasp<s n="vblex"/></r></p></e>
 
     <!-- why does lā sometimes get a dash, sometimes not?-->
     <!-- pilā: oblique nominal form of pī (drink), i.e. for drinking vs pī-lā: pi followed by postposition lā meaning for the benefit of drinking, so water is a pilā while a cup is pī lā, I think -->
-    <e><p><l>khā<s n="v"/></l><r>eat<s n="v"/></r></p></e>
+    <e><p><l>khā<s n="v"/></l><r>eat<s n="vblex"/></r></p></e>
 
-    <e><p><l>bhe<s n="v"/></l><r>become<s n="v"/></r></p></e>
+    <e><p><l>bhe<s n="v"/></l><r>become<s n="vblex"/></r></p></e>
     <!-- <e><p><l>nikal-gelain<s n="v"/></l><r>was-removed<s n="v"/></r></p></e> --> <!-- According to this source, ge- is the stem of the past tense of jā, meaning to go, so I think here nikal means out or something like that and gelain means went -->
-    <e><p><l>kaH<s n="v"/></l><r>say<s n="v"/></r></p></e>
-    <e><p><l>japnā<s n="v"/></l><r>should-be-muttered<s n="v"/></r></p></e> <!-- no idea what this should be analyzed as -->
+    <e><p><l>kaH<s n="v"/></l><r>say<s n="vblex"/></r></p></e>
+    <e><p><l>japnā<s n="v"/></l><r>should-be-muttered<s n="vblex"/></r></p></e> <!-- no idea what this should be analyzed as -->
 
     <!-- 3 adjectives -->
-    <e><p><l>ṭhanḍhā<s n="adj"/></l><r>cool<s n="adj"/></r></p></e>
+    <e><p><l>ṭhanḍhā<s n="adj"/></l><r>cool<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>ego<s n="adj"/></l><r>one<s n="adj"/></r></p></e>
     <e><p><l>bhīrī<s n="adj"/></l><r>near<s n="adj"/></r></p></e>
     <e><p><l>piāsal<s n="adj"/></l><r>thirsty<s n="adj"/></r></p></e>
@@ -227,6 +227,7 @@
     <e><p><l>se<s n="post"/></l><r>for<s n="pr"/></r></p></e>
     <e><p><l>se<s n="post"/></l><r>to<s n="pr"/></r></p></e>
     <e><p><l>jī<s n="post"/></l><r>the<s n="pr"/></r></p></e> <!-- I think definiteness is usually marked with the suffix -wā; maybe this is old fashioned -->
+    <!-- <e r="LR"><p><l>jī<s n="post"/></l><r></r></p></e> <!-\- no good single translation -\-> -->
 
     <e><p><l>thoṛe<s n="adj"/></l><r>some<s n="adj"/></r></p></e>
     <e><p><l>Har<s n="det"/></l><r>every<s n="det"/></r></p></e>
