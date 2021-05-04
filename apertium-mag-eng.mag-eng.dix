@@ -131,6 +131,11 @@
     <!-- Patrick's 16 + 8 = 24-->
     <!-- 8 nouns -->
     <e><p><l>phar<s n="n"/></l><r>fruit<s n="n"/></r></p></e>
+    <e><p><l>phal<s n="n"/></l><r>fruit<s n="n"/></r></p></e>
+    <e><p><l>ghore<s n="n"/></l><r>horse<s n="n"/></r></p></e>
+    <e><p><l>bail<s n="n"/></l><r>bull<s n="n"/></r></p></e>
+    <e><p><l>mālī<s n="n"/></l><r>gardener<s n="n"/></r></p></e>
+    <e><p><l>cor<s n="n"/></l><r>thief<s n="n"/></r></p></e>
     <e><p><l>pānī<s n="n"/></l><r>water<s n="n"/></r></p></e>
     <e><p><l>Hawā<s n="n"/></l><r>air<s n="n"/></r></p></e>
     <e><p><l>rājā<s n="n"/></l><r>king<s n="n"/></r></p></e><!-- the-king -->
@@ -183,6 +188,7 @@
     <!--- Clearly -ke is a postposition. check if we have it.-->
     <!--- We do -->
     <e><p><l>dekh<s n="v"/></l><r>see<s n="vblex"/></r></p></e>
+    <e><p><l>gādhū<s n="v"/></l><r>see<s n="vblex"/></r></p></e>
     <e><p><l>sut<s n="v"/></l><r>sleep<s n="vblex"/></r></p></e>
     <e><p><l>lāg<s n="v"/></l><r>touch<s n="vblex"/></r></p></e>
     <e><p><l>jān<s n="v"/></l><r>know<s n="vblex"/></r></p></e>

@@ -6,6 +6,7 @@ number = (ND sg) sg pl sp ND;
 gender = (GD m) m f mf GD;
 person = (PD p3) p1 p2 p3 PD;
 det_type = def ind dem itg;
+case = (CD subj) subj obj CD;
 tense = pres past fut ifi pri fti inf;
 subject = (SD s_p1) s_p1 s_p2 s_p3 SD;
 adjective_type = sint preadj preadj_nh;
@@ -18,6 +19,7 @@ n: _.number;
 adj: _.adjective_type;
 det_default: _.det_type;
 det_def: _.det_type.number;
+pronoun: _.case.person.gender.number;
 pr: _;
 vbmod: _;
 v: _.subject ;
@@ -25,6 +27,7 @@ vpers: _.tense.person.number ;
 vnotpers: _.tense ;
 
 S: _ ;
+NOM: _ ;
 NP: _.number;
 PP: _ ;
 DP: _.person.number ;
@@ -54,11 +57,13 @@ tense > tense : ifi past, pri pres, fti fut;
 
 S -> DP VP { 1 _ %2 } ;
 PP -> DP %post { %2(pr) _ 1 } ;
+NOM -> %n { %1 } |
+       %prpers { %1(pronoun)[case=subj, gender=mf] } ;
 DP -> NP { the@det.def.sp _ %1 } ;
 AP -> adj { 1[adjective_type=sint] } ;
-NP -> n { %1 } |
-      n PP { 1 _ %2 } |
-      AP n { %1 _ 2 } ;
+NP -> NOM { %1 } |
+      NOM PP { 1 _ %2 } |
+      AP NOM { %1 _ 2 };
 VP -> %vP { %1 } ;
       ! DP %vP { 2 _ %1 } |
 vP -> v.$tense.$subject {
