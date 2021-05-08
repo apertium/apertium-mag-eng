@@ -58,7 +58,7 @@ tense > tense : ifi past, pri pres, fti fut;
 S -> DP VP { 1 _ %2 } ;
 PP -> DP %post { %2(pr) _ 1 } ;
 NOM -> %n { %1 } |
-       %prpers { %1(pronoun)[case=subj, gender=mf] } ;
+       %Prpers { %1(pronoun)[case=subj, gender=mf] } ;
 DP -> NP { the@det.def.sp _ %1 } ;
 AP -> adj { 1[adjective_type=sint] } ;
 NP -> NOM { %1 } |
