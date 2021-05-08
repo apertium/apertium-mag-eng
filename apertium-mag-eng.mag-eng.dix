@@ -14,9 +14,9 @@
     <sdef n="vaux"            c="Auxiliary verb"/>
     <sdef n="vbser"           c="'To be' verb"/>
     <sdef n="vbhaver"         c="'To have' verb"/>
-    <sdef n="cnjsub"          c="Subordinating conjunction"/>
-    <sdef n="cnjcoo"          c="Co-ordinating conjunction"/>
-    <sdef n="cnjadv"          c="Adverbial conjunction"/>
+    <sdef n="cnjsub"          c="Subordinating cnjcoounction"/>
+    <sdef n="cnjcoo"          c="Co-ordinating cnjcoounction"/>
+    <sdef n="cnjadv"          c="Adverbial cnjcoounction"/>
     <sdef n="cnj"             c="Conjunction"/>
     <sdef n="pr"              c="Preposition"/>
     <sdef n="adv"             c="Adverb"/>
@@ -244,7 +244,7 @@
     <e><p><l>paHuṃchlan<s n="adv"/></l><r>up-to<s n="adv"/></r></p></e>
     <e><p><l>thoṛāaisan<s n="post"/></l><r>a-little-like<s n="pr"/></r></p></e>
 
-    <!-- this is a conjugation of the auxiliary, which is a sort of be/have combo -->
+    <!-- this is a cnjcoougation of the auxiliary, which is a sort of be/have combo -->
     <e><p><l>Hoy<s n="v"/></l><r>may-be<s n="v"/></r></p></e>
 
     <!-- William's: -->
@@ -275,7 +275,7 @@
       <e><p><l>Huāṃ<s n="adv"/></l><r>there<s n="adv"/></r></p></e>
       <e><p><l>bhī<s n="adv"/></l><r>even<s n="adv"/></r></p></e>
 
-    <!-- 1 conjunction-->
+    <!-- 1 cnjcoounction-->
       <e><p><l>āu<s n="cnj"/></l><r>and<s n="cnj"/></r></p></e>
       <!-- 106 new ones as part of last lab-->
       <e><p><l>jāpahūṃc<s n="v"/></l><r>rise<s n="vblex"/></r></p></e>
@@ -312,7 +312,7 @@
       <e><p><l>cāHī<s n="adj"/></l><r>proper<s n="adj"/></r></p></e>
       <e><p><l>khātir<s n="n"/></l><r>favor<s n="n"/></r></p></e>
       <e><p><l>bigāṛe<s n="v"/></l><r>unmake<s n="vblex"/></r></p></e>
-      <e><p><l>yā<s n="conj"/></l><r>or<s n="conj"/></r></p></e>
+      <e><p><l>yā<s n="cnjcoo"/></l><r>or<s n="cnjcoo"/></r></p></e>
       <e><p><l>banāwe<s n="v"/></l><r>make<s n="vblex"/></r></p></e>
       <e><p><l>pāṃo<s n="n"/></l><r>foot<s n="n"/><s n="pl"/></r></p></e>
       <e><p><l>gir<s n="adv"/></l><r>down<s n="adv"/></r></p></e>
@@ -366,14 +366,13 @@
       <e><p><l>lag<s n="v"/></l><r>begin<s n="vblex"/></r></p></e>
       <e><p><l>rahwaiyā<s n="n"/></l><r>inhabitant<s n="n"/></r></p></e>
       <e><p><l>hīṃāṃ<s n="adv"/></l><r>near<s n="adv"/></r></p></e>
-      <e><p><l><s n=""/></l><r><s n=""/></r></p></e>
       <e><p><l>bādh<s n="n"/></l><r>field<s n="n"/></r></p></e>
       <e><p><l>sūar<s n="n"/></l><r>swine<s n="n"/></r></p></e>
       <e><p><l>charāwe<s n="v"/></l><r>feed<s n="vblex"/></r></p></e>
       <e><p><l>peṭhau<s n="v"/></l><r>send<s n="vblex"/></r></p></e>
       <e><p><l>bhūsā<s n="n"/></l><r>husk<s n="n"/></r></p></e>
 
-      <e><p><l>bākī<s n="conj"/></l><r>but<s n="conj"/></r></p></e>
+      <e><p><l>bākī<s n="cnjcoo"/></l><r>but<s n="cnjcoo"/></r></p></e>
       <e><p><l>peṭ<s n="n"/></l><r>belly<s n="n"/></r></p></e>
       <e><p><l>bhare<s n="v"/></l><r>fill<s n="vblex"/></r></p></e>
       <e><p><l>mara<s n="v"/></l><r>die<s n="vblex"/></r></p></e>
@@ -382,7 +381,7 @@
       <e><p><l>kaigo<s n="n"/></l><r>several<s n="n"/></r></p></e>
       <e><p><l>naukarcākar<s n="n"/></l><r>servant<s n="n"/></r></p></e>
       <e><p><l>haṃṭhuāman<s n="adj"/></l><r>abundant<s n="adj"/></r></p></e>
-      <e><p><l>ab<s n="conj"/></l><r>now<s n="conj"/></r></p></e>
+      <e><p><l>ab<s n="cnjcoo"/></l><r>now<s n="cnjcoo"/></r></p></e>
 
       <e><p><l>uṭh<s n="v"/></l><r>arise<s n="vblex"/></r></p></e>
       <e><p><l>hīṃ<s n="adv"/></l><r>near<s n="adv"/></r></p></e>
@@ -394,7 +393,6 @@
       <e><p><l>majūrā<s n="n"/></l><r>laborer<s n="n"/></r></p></e>
       <e><p><l>nīar<s n="adj"/></l><r>like<s n="adj"/></r></p></e>
       <e><p><l>bas<s n="adj"/></l><r>enough<s n="adj"/></r></p></e>
-      <e><p><l>baiṭhge<s n=""/></l><r><s n=""/></r></p></e>
       <e><re>[.\?;:!…¿¶]</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
       <e><re>,</re>          <p><l><s n="cm"/></l>  <r><s n="cm"/></r></p></e>
    </section>
