@@ -79,6 +79,25 @@
     </match>
     <match tags="n.*"/>
   </rule>
+
+  <!-- Har -->
+  <rule weight="1">
+    <match lemma="Har">
+      <select lemma="plow"/>
+    </match>
+  </rule>
+  
+  <rule weight="100">
+    <match lemma="Har">
+      <select lemma="every"/>
+    </match>
+    <or>
+      <match tags="n.*"/>
+      <match tags="adj.*"/>
+    </or>
+  </rule>
+
+  
 </rules>
 
 <!--
