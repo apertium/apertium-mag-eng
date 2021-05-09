@@ -218,7 +218,7 @@
     <e><p><l>Hāṃ<s n="adv"/></l><r>yes<s n="adv"/></r></p></e>
     <e><p><l>nayaṃ<s n="adv"/></l><r>no<s n="adv"/></r></p></e>
     <e><p><l>sāyad<s n="adv"/></l><r>maybe<s n="adv"/></r></p></e>
-    <e><p><l>baHut<s n="adv"/></l><r>very</r></p></e>
+    <e><p><l>baHut<s n="adv"/></l><r>very<s n="adv"/></r></p></e>
     <e><p><l>tab<s n="adv"/></l><r>then<s n="adv"/></r></p></e>
     
     <!-- 4 others-->   
@@ -289,7 +289,7 @@
       <e><p><l>narāy<s n="n"/></l><r>god<s n="n"/></r></p></e>
       <e><p><l>jap<s n="v"/></l><r>mutter<s n="v"/></r></p></e>
       <e><p><l>sab<s n="post"/></l><r>plural<s n="pl"/></r></p></e>
-      <e><p><l>ankar<s n="prn"/></l>other<r><s n="prn"/></r></p></e>
+      <e><p><l>ankar<s n="prn"/></l><r>other<s n="prn"/></r></p></e>
       <e><p><l>cūk<s n="n"/></l><r>mistake<s n="n"/></r></p></e>
       <e><p><l>chamā<s n="n"/></l><r>mercy<s n="n"/></r></p></e>
       <e><p><l>cauṭhā<s n="n"/></l><r>fourth<s n="n"/></r></p></e>
@@ -302,12 +302,12 @@
       <e><p><l>sādh<s n="v"/></l><r>bring<s n="vblex"/></r></p></e>
       <e><p><l>sadā<s n="adv"/></l><r>always<s n="adv"/></r></p></e>
       <e><p><l>Ha<s n="aux"/></l><r>be<s n="vbser"/></r></p></e>
-      <e><p><l>baikunṭh<s n="n"/></l>heaven<r><s n="n"/></r></p></e>
+      <e><p><l>baikunṭh<s n="n"/></l><r>heaven<s n="n"/></r></p></e>
       <e><p><l>sewāy<s n="adv"/></l><r>besides<s n="adv"/></r></p></e>
       <e><p><l>ek<s n="adj"/></l><r>one<s n="adj"/></r></p></e>
 
       <e><p><l>neāw<s n="n"/></l><r>justice<s n="n"/></r></p></e>
-      <e><p><l>pakkā<s n="adj"/></l>firm<r><s n="adj"/></r></p></e>
+      <e><p><l>pakkā<s n="adj"/></l><r>firm<s n="adj"/></r></p></e>
       <e><p><l>rahe<s n="v"/></l><r>remain<s n="vblex"/></r></p></e>
       <e><p><l>cāHī<s n="adj"/></l><r>proper<s n="adj"/></r></p></e>
       <e><p><l>khātir<s n="n"/></l><r>favor<s n="n"/></r></p></e>

@@ -19,27 +19,30 @@ n: _.number;
 adj: _.adjective_type;
 det_default: _.det_type;
 det_def: _.det_type.number;
-pronoun: _.case.person.gender.number;
+prpers: _.case.person.gender.number;
 pr: _;
 vbmod: _;
 v: _.subject ;
 vpers: _.tense.person.number ;
 vnotpers: _.tense ;
+adv: _;
 
 S: _ ;
-NOM: _ ;
+NOM: _.case.person.gender.number;
 NP: _.number;
 PP: _ ;
 DP: _.person.number ;
 VP: _.subject ;
 vP: _.subject ;
 AP: _ ;
+ADVP: _;
 
 !!!!!!!!!!!!!!!
 !! TAG-REWRITE RULES
 !!!!!!!!!!!!!!!
 
 tense > tense : ifi past, pri pres, fti fut;
+case > case : obl obj, nom subj;
 
 !!!!!!!!!!!!!!!
 !! MACROS
@@ -57,15 +60,19 @@ tense > tense : ifi past, pri pres, fti fut;
 
 S -> DP VP { 1 _ %2 } ;
 PP -> DP %post { %2(pr) _ 1 } ;
-NOM -> %n { %1 } |
-       %prpers { %1(pronoun)[case=subj, gender=mf] } ;
-DP -> NP { the@det.def.sp _ %1 } ;
-AP -> adj { 1[adjective_type=sint] } ;
-NP -> NOM { %1 } |
-      NOM PP { 1 _ %2 } |
-      AP NOM { %1 _ 2 };
-VP -> %vP { %1 } ;
-      ! DP %vP { 2 _ %1 } |
+DP -> NP { the@det.def.sp _ %1 } |
+       %prn { %1(prpers)[gender=mf] } ;
+AP -> adj { 1[adjective_type=sint] } |
+      ADVP AP { 1 _ 2[adjective_type=sint] } |
+      AP adj { 1 _ 2[adjective_type=sint]} ;
+NP -> n { %1 } |
+      n PP { 1 _ %2 } |
+      AP n { %1 _ 2 };
+VP -> %vP { %1 } |
+      ADVP %vP { 1 _ %2 } |
+      DP %vP { 2 _ %1 } |
+      DP ADVP %vP { 2 _ %3 _ 1 } |
+      VP PP -> { 1 _ 2 } ;
 vP -> v.$tense.$subject {
    (if (1.subject = s_p3 And 1.tense = pres)
         1(vpers)[person=p3, number=sg]
@@ -76,6 +83,8 @@ vP -> v.$tense.$subject {
 	    1(vnotpers))
     )
 } ;
+ADVP -> adv { 1 } |
+        adv ADVP { 1 _ 2 } ;
 
 ! Resources:
 ! http://wiki.apertium.org/wiki/Apertium-recursive
