@@ -29,11 +29,11 @@ vnotpers: _.tense ;
 adv: _;
 
 S: _ ;
-NP: _.number;
+NP: _.number.case_mag;
 PP: _ ;
-DP: _.person.number ;
-VP: _.subject ;
-vP: _.subject ;
+DP: _.person.number.case_mag;
+VP: _.subject;
+vP: _.subject;
 AP: _ ;
 ADVP: _;
 
@@ -58,10 +58,9 @@ case_mag > case_eng : obl obj, nom subj, loc obj, gen pos;
 !! REDUCTION RULES
 !!!!!!!!!!!!!!!
 
-S -> DP VP { 1 _ %2 } ;
+S -> DP.nom VP { 1 _ %2 } ;
 PP -> DP %post { %2(pr) _ 1 } ;
-DP -> NP { the@det.def.sp _ %1 } |
-       ! %prn { %1(prpers)[gender=mf] } ;
+DP -> %NP { the@det.def.sp _ %1 } |
        %prn.$case_mag { 
            (if (1.case_mag = nom)
                 %1(prpers)[case_eng=subj, gender=mf]
@@ -74,13 +73,13 @@ DP -> NP { the@det.def.sp _ %1 } |
 AP -> adj { 1[adjective_type=sint] } |
       ADVP AP { 1 _ 2[adjective_type=sint] } |
       AP adj { 1 _ 2[adjective_type=sint]} ;
-NP -> n { %1 } |
-      n PP { 1 _ %2 } |
-      AP n { %1 _ 2 };
-VP -> %vP { %1 } |
+NP -> %n { %1 } |
+      %n PP { 1 _ %2 } |
+      AP %n { %1 _ 2 };
+VP -> 10: %vP { %1 } |
       ADVP %vP { 1 _ %2 } |
-      DP %vP { 2 _ %1 } |
-      DP ADVP %vP { 2 _ %3 _ 1 } |
+      DP.*.obl %vP { 2 _ %1 } |
+      DP.*.obl ADVP %vP { 2 _ %3 _ 1 } |
       VP PP -> { 1 _ 2 } ;
 vP -> v.$tense.$subject {
    (if (1.subject = s_p3 And 1.tense = pres)
