@@ -6,7 +6,8 @@ number = (ND sg) sg pl sp ND;
 gender = (GD m) m f mf GD;
 person = (PD p3) p1 p2 p3 PD;
 det_type = def ind dem itg;
-case = (CD subj) subj obj CD;
+case_eng = (CD subj) subj obj pos CD;
+case_mag = (CD nom) nom obl loc gen CD;
 tense = pres past fut ifi pri fti inf;
 subject = (SD s_p1) s_p1 s_p2 s_p3 SD;
 adjective_type = sint preadj preadj_nh;
@@ -19,7 +20,7 @@ n: _.number;
 adj: _.adjective_type;
 det_default: _.det_type;
 det_def: _.det_type.number;
-prpers: _.case.person.gender.number;
+prpers: _.case_eng.person.gender.number;
 pr: _;
 vbmod: _;
 v: _.subject ;
@@ -28,7 +29,6 @@ vnotpers: _.tense ;
 adv: _;
 
 S: _ ;
-NOM: _.case.person.gender.number;
 NP: _.number;
 PP: _ ;
 DP: _.person.number ;
@@ -42,7 +42,7 @@ ADVP: _;
 !!!!!!!!!!!!!!!
 
 tense > tense : ifi past, pri pres, fti fut;
-case > case : obl obj, nom subj;
+case_mag > case_eng : obl obj, nom subj, loc obj, gen pos;
 
 !!!!!!!!!!!!!!!
 !! MACROS
@@ -61,7 +61,16 @@ case > case : obl obj, nom subj;
 S -> DP VP { 1 _ %2 } ;
 PP -> DP %post { %2(pr) _ 1 } ;
 DP -> NP { the@det.def.sp _ %1 } |
-       %prn { %1(prpers)[gender=mf] } ;
+       ! %prn { %1(prpers)[gender=mf] } ;
+       %prn.$case_mag { 
+           (if (1.case_mag = nom)
+                %1(prpers)[case_eng=subj, gender=mf]
+            else-if (1.case_mag = obl Or 1.case_mag = loc)
+                %1(prpers)[case_eng=obj, gender=mf]
+            else
+                %1(prpers)[case_eng=pos, gender=mf])
+       };
+                
 AP -> adj { 1[adjective_type=sint] } |
       ADVP AP { 1 _ 2[adjective_type=sint] } |
       AP adj { 1 _ 2[adjective_type=sint]} ;
