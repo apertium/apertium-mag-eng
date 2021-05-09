@@ -155,9 +155,7 @@
     <e><p><l>paHilā<s n="n"/></l><r>first<s n="n"/></r></p></e>
     <e><p><l>dūsar<s n="n"/></l><r>second<s n="n"/></r></p></e>
     <e><p><l>tīsar<s n="n"/></l><r>third<s n="n"/></r></p></e>
-    <e><p><l>dayā<s n="n"/></l><r>compassion<s n="n"/></r></p></e>
     <e><p><l>bhulāte<s n="n"/></l><r>way<s n="n"/></r></p></e>
-    <e><p><l>pāoṃ<s n="n"/></l><r>feet<s n="n"/></r></p></e>
     <e><p><l>ber<s n="n"/></l><r>time<s n="n"/></r></p></e>
     <e><p><l>sāmī<s n="n"/></l><r>lord<s n="n"/></r></p></e>
     <e><p><l>sādhū<s n="n"/></l><r>saint<s n="n"/></r></p></e>
@@ -177,11 +175,9 @@
     <e><p><l>de<s n="v"/></l><r>give<s n="vblex"/></r></p></e><!-- -lthin is some grammar stuff that differs from what we have-->
     <e><p><l>puch<s n="v"/></l><r>ask<s n="vblex"/></r></p></e><!-- same with -lan -->
     <e><p><l>raHa<s n="v"/></l><r>live<s n="vblex"/></r></p></e> <!-- I think halan is the auxiliary and raha is in its basic participal form -->
-    <e><p><l>bhulāte<s n="v"/></l><r>losing<s n="vblex"/></r></p></e>
+    <e><p><l>bhulāte<s n="v"/></l><r>lose<s n="vblex"/></r></p></e>
     <e><p><l>jā<s n="v"/></l><r>go<s n="vblex"/></r></p></e>
-    <e><p><l>ge<s n="v"/></l><r>went<s n="vblex"/></r></p></e>
     <e><p><l>bol<s n="v"/></l><r>speak<s n="vblex"/></r></p></e>
-    <e><p><l>jap<s n="v"/></l><r>mutter<s n="vblex"/></r></p></e>
     <e><p><l>rāj<s n="v"/></l><r>govern<s n="vblex"/></r></p></e>
     <e><p><l>kar<s n="v"/></l><r>do<s n="vblex"/></r></p></e><!-- sanscrit knowledge-->
 
@@ -202,7 +198,6 @@
     <e><p><l>bhe<s n="v"/></l><r>become<s n="vblex"/></r></p></e>
     <!-- <e><p><l>nikal-gelain<s n="v"/></l><r>was-removed<s n="v"/></r></p></e> --> <!-- According to this source, ge- is the stem of the past tense of jā, meaning to go, so I think here nikal means out or something like that and gelain means went -->
     <e><p><l>kaH<s n="v"/></l><r>say<s n="vblex"/></r></p></e>
-    <e><p><l>japnā<s n="v"/></l><r>should-be-muttered<s n="vblex"/></r></p></e> <!-- no idea what this should be analyzed as -->
 
     <!-- 3 adjectives -->
     <e><p><l>ṭhanḍhā<s n="adj"/></l><r>cool<s n="adj"/><s n="sint"/></r></p></e>
@@ -280,9 +275,9 @@
       <!-- 106 new ones as part of last lab-->
       <e><p><l>jāpahūṃc<s n="v"/></l><r>rise<s n="vblex"/></r></p></e>
       <e><p><l>baiṭhge<s n="v"/></l><r>sit<s n="vblex"/></r></p></e>
-      <e><p><l>piāsal<s n="adj"/></l><r>thirsty<s n="adj"/></r></p></e>
       <e><p><l>thoṛā<s n="adv"/></l><r>little<s n="adv"/></r></p></e>
       <e><p><l>aisan<s n="adj"/></l><r>like<s n="adj"/></r></p></e>
+      <e><p><l>Har<s n="n"/></l><r>plow<s n="n"/></r></p></e>
 
       <e><p><l>nikal<s n="adv"/></l><r>leave<s n="vblex"/></r></p></e>
       <e><p><l>pi<s n="v"/></l><r>drink<s n="vblex"/></r></p></e>
@@ -306,7 +301,6 @@
       <e><p><l>sewāy<s n="adv"/></l><r>besides<s n="adv"/></r></p></e>
       <e><p><l>ek<s n="adj"/></l><r>one<s n="adj"/></r></p></e>
 
-      <e><p><l>neāw<s n="n"/></l><r>justice<s n="n"/></r></p></e>
       <e><p><l>pakkā<s n="adj"/></l><r>firm<s n="adj"/></r></p></e>
       <e><p><l>rahe<s n="v"/></l><r>remain<s n="vblex"/></r></p></e>
       <e><p><l>cāHī<s n="adj"/></l><r>proper<s n="adj"/></r></p></e>
@@ -314,21 +308,18 @@
       <e><p><l>bigāṛe<s n="v"/></l><r>unmake<s n="vblex"/></r></p></e>
       <e><p><l>yā<s n="cnjcoo"/></l><r>or<s n="cnjcoo"/></r></p></e>
       <e><p><l>banāwe<s n="v"/></l><r>make<s n="vblex"/></r></p></e>
-      <e><p><l>pāṃo<s n="n"/></l><r>foot<s n="n"/><s n="pl"/></r></p></e>
+      <e><p><l>pāṃo<s n="n"/></l><r>foot<s n="n"/></r></p></e>
       <e><p><l>gir<s n="adv"/></l><r>down<s n="adv"/></r></p></e>
 
       <e><p><l>par<s n="v"/></l><r>fall<s n="vblex"/></r></p></e>
       <e><p><l>rājkar<s n="v"/></l><r>govern<s n="vblex"/></r></p></e>
       <e><p><l>gā<s n="aux"/></l><r>be<s n="vbser"/></r></p></e>
-      <e><p><l>khojate<s n="v"/></l><r>search<s n="vblex"/></r></p></e>
       <e><p><l>huāṃ<s n="adv"/></l><r>there<s n="adv"/></r></p></e>
-      <e><p><l>ge<s n="v"/></l><r>come<s n="vblex"/><s n="past"/></r></p></e>
+      <e><p><l>ge<s n="v"/></l><r>come<s n="vblex"/></r></p></e>
       <e><p><l>parnām<s n="n"/></l><r>bow<s n="n"/></r></p></e>
       <e><p><l>parnā<s n="v"/></l><r>bow<s n="vblex"/></r></p></e>
       <e><p><l>gaṃ<s n="n"/></l><r>village<s n="n"/></r></p></e>
 
-      <e><p><l>ghur<s n="v"/></l><r>return<s n="vblex"/></r></p></e>
-    
       <e><p><l>ādmī<s n="n"/></l><r>man<s n="n"/></r></p></e>
       <e><p><l>beṭā<s n="n"/></l><r>son<s n="n"/></r></p></e>
       <e><p><l>dugo<s n="adj"/></l><r>two<s n="adj"/></r></p></e>
@@ -348,10 +339,10 @@
       <e><p><l>ḍher<s n="det"/></l><r>many<s n="det"/></r></p></e>
       <e><p><l>bīte<s n="v"/></l><r>pass<s n="vblex"/></r></p></e>
       <e><p><l>pau<s n="v"/></l><r>allow<s n="vblex"/></r></p></e>
-      <e><p><l>baṭorsaṭor<s n="v"/></l><r><s n="vblex"/></r></p></e>
+      <e><p><l>baṭorsaṭor<s n="v"/></l><r>collect<s n="vblex"/></r></p></e>
       <e><p><l>dūr<s n="adj"/></l><r>far<s n="adj"/></r></p></e>
       
-      <e><p><l>baṛi<s n="adv"/></l><r><s n="adv"/></r></p></e>
+      <e><p><l>baṛi<s n="adv"/></l><r>very<s n="adv"/></r></p></e>
       <e><p><l>des<s n="n"/></l><r>country<s n="n"/></r></p></e>
       <e><p><l>cal<s n="adv"/></l><r>away<s n="adv"/></r></p></e>
       <e><p><l>puṃjī<s n="n"/></l><r>fortune<s n="n"/></r></p></e>
@@ -367,7 +358,6 @@
       <e><p><l>rahwaiyā<s n="n"/></l><r>inhabitant<s n="n"/></r></p></e>
       <e><p><l>hīṃāṃ<s n="adv"/></l><r>near<s n="adv"/></r></p></e>
       <e><p><l>bādh<s n="n"/></l><r>field<s n="n"/></r></p></e>
-      <e><p><l>sūar<s n="n"/></l><r>swine<s n="n"/></r></p></e>
       <e><p><l>charāwe<s n="v"/></l><r>feed<s n="vblex"/></r></p></e>
       <e><p><l>peṭhau<s n="v"/></l><r>send<s n="vblex"/></r></p></e>
       <e><p><l>bhūsā<s n="n"/></l><r>husk<s n="n"/></r></p></e>
